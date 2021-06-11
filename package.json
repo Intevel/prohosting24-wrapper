@@ -1,0 +1,24 @@
+{
+	"name": "prohosting24",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"directories": {
+		"example": "examples"
+	},
+	"dependencies": {
+		"@types/node-fetch": "^2.5.10",
+		"node-fetch": "^2.6.1",
+		"typescript": "^4.3.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"build": "tsc -b .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"prohosting24"
+	],
+	"author": "Conner Bachmann <mail@conner-bachmann.de>",
+	"license": "MIT"
+}
