@@ -1,9 +1,10 @@
 {
 	"name": "prohosting24",
-	"version": "1.0.0",
-	"description": "",
+	"version": "1.0.1",
+	"description": "An unofficial, reverse-engineered wrapper for the internal [ProHosting24](http://prohosting24.de/) API.",
 	"main": "dist/index.js",
 	"directories": {
+		"doc": "docs",
 		"example": "examples"
 	},
 	"dependencies": {
@@ -20,5 +21,13 @@
 		"prohosting24"
 	],
 	"author": "Conner Bachmann <mail@conner-bachmann.de>",
-	"license": "MIT"
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Intevel/prohosting24-wrapper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Intevel/prohosting24-wrapper/issues"
+	},
+	"homepage": "https://github.com/Intevel/prohosting24-wrapper#readme"
 }
